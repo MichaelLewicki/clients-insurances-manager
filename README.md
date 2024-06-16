@@ -15,7 +15,7 @@ Luego, clona el proyecto en tu equipo local.
 
 ## Construcción del proyecto
 
-Debes ubicarte en la raíz del proyecto. Luego, ejecuta:
+Debes ubicarte en la raíz del proyecto. Luego, ejecutar:
 
    **mvn clean install**
 
