@@ -25,7 +25,7 @@ Este comando:
 2. Descarga las dependencias necesarias.
 3. Compila el código.
 4. Ejecuta los tests.
-5. mpaqueta el proyecto en un archivo JAR.
+5. Empaqueta el proyecto en un archivo JAR.
 
 ## Ejecución del proyecto
 
