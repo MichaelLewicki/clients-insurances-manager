@@ -17,7 +17,7 @@ Luego, clona el proyecto en tu equipo local.
 
 Debes ubicarte en la raíz del proyecto. Luego, ejecuta:
 
-**mvn clean install**
+   **mvn clean install**
 
 Este comando:
 
@@ -31,12 +31,10 @@ Este comando:
 
 Después de construir el proyecto, puedes ejecutar la aplicación utilizando el siguiente comando:
 
-**java -jar target/clients-insurances-manager-1.0.0.jar**
+  **java -jar target/clients-insurances-manager-1.0.0.jar**
 
 ## Ejecución de los tests
 
 Para ejecutar los tests de la aplicación, utiliza el siguiente comando:
 
-**mvn test**
-
-Para ejecutar los test
+  **mvn test**
