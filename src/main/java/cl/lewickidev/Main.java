@@ -28,7 +28,7 @@ public class Main {
         System.out.println();
         System.out.println("[clientWithLessFunds] " + clientWithLessFunds().toString());
         System.out.println();
-        System.out.println("[newClientRanking] " + newClientRanking());
+        System.out.println("[newClientRanking] --> " + newClientRanking());
     }
 
     private static final List<Cliente> clients = List.of(
