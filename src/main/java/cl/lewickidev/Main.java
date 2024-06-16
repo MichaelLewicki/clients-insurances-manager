@@ -12,23 +12,16 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("[listClientsIds] " + listClientsIds().toString());
-        System.out.println();
-        System.out.println("[listClientsIdsSortedByRUT] " + listClientsIdsSortedByRUT().toString());
-        System.out.println();
-        System.out.println("[sortClientsTotalBalances] " + sortClientsTotalBalances().toString());
-        System.out.println();
-        System.out.println("[insuranceClientsByRUT] " + insuranceClientsByRUT().toString());
-        System.out.println();
-        System.out.println("[higherClientsBalances] " + higherClientsBalances().toString());
-        System.out.println();
-        System.out.println("[insuranceSortedByHighestBalance] " + insuranceSortedByHighestBalance().toString());
-        System.out.println();
-        System.out.println("[uniqueInsurance] " + uniqueInsurance().toString());
-        System.out.println();
-        System.out.println("[clientWithLessFunds] " + clientWithLessFunds().toString());
-        System.out.println();
-        System.out.println("[newClientRanking] --> " + newClientRanking());
+        System.out.println("[listClientsIds] " + listClientsIds().toString() + "\n");
+        System.out.println("[listClientsIdsSortedByRUT] " + listClientsIdsSortedByRUT().toString() + "\n");
+        System.out.println("[sortClientsTotalBalances] " + sortClientsTotalBalances().toString() + "\n");
+        System.out.println("[insuranceClientsByRUT] " + insuranceClientsByRUT().toString() + "\n");
+        System.out.println("[higherClientsBalances] " + higherClientsBalances().toString() + "\n");
+        System.out.println("[insuranceSortedByHighestBalance] " + insuranceSortedByHighestBalance().toString() + "\n");
+        System.out.println("[uniqueInsurance] " + uniqueInsurance().toString() + "\n");
+        System.out.println("[clientWithLessFunds] " + clientWithLessFunds().toString() + "\n");
+        System.out.println("[newClientRanking] N° --> " + newClientRanking() + "\n");
+
     }
 
     private static final List<Cliente> clients = List.of(
