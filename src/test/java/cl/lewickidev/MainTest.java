@@ -27,29 +27,21 @@ public class MainTest {
     void testHigherClientsBalances() {
         List<Integer> resultList = Main.higherClientsBalances();
 
-        Boolean balanceValidator = true;
-        for (Integer balance : resultList) {
-            if (balance <= 30000) {
-                balanceValidator = false;
-            }
-        }
         List<Integer> sortedlist = resultList.stream()
                 .sorted(Comparator.reverseOrder())
                 .toList();
 
-        assertTrue(balanceValidator, "Hay balances menores a 30.000");
         assertEquals(sortedlist, resultList);
+        assertTrue(resultList.stream().allMatch(balance -> balance > 30000), "Hay balances menores a 30.000");
     }
 
     @Test
     void testInsuranceSortedByHighestBalance() {
         List<Integer> insuranceIds = Main.insuranceSortedByHighestBalance();
 
-        assertEquals(3, insuranceIds.size());
-        assertEquals(3, insuranceIds.stream().distinct().count());
-        assertEquals(2, insuranceIds.get(0));
-        assertEquals(1, insuranceIds.get(1));
-        assertEquals(3, insuranceIds.get(2));
+        List<Integer> expectedOrder = List.of(2, 1, 3);
+
+        assertEquals(expectedOrder, insuranceIds, "Los IDs no están en el orden esperado");
     }
 
 }
