@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es un gestor de cuentas, seguros y clientes implementado en Java 17 y utilizando Maven como herramienta de gestión de dependencias y construcción.
+Este proyecto es un gestor de cuentas, seguros y clientes implementado en Java 17 y utilizando Maven como herramienta de gestión de construcción y dependencias.
 
 ## Requisitos previos
 
